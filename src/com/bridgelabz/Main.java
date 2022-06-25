@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Main main = new Main();
+		Multiplication multiplication = new Multiplication();
 		main.addition();
 		main.sub();
+		multiplication.mul();
 	}
 
 	private void sub() {
